@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+#container{
+    background-color: antiquewhite;
+    margin: 100px auto;
+    padding: 20px;
+    height: 1024px;
+    width: 1024px;
+    display: flex;
+    align-items: flex-start;
+}
+
+#cell
+{
+    background-color: red;
+    padding: 10px;
+    margin-top: 0;
+    margin-left: 0;
+    height: 16px;
+    width: 16px;
+    flex: 0 1 1;
+}

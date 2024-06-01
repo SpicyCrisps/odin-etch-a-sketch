@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+#container{
+    background-color: antiquewhite;
+    margin: 128px auto;
+    padding: 16px;
+    height: 1024px;
+    width: 1024px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+
+#cell
+{
+    background-color: red;
+    margin-top: 0;
+    margin-left: 0;
+    height: 64px;
+    width: 64px;
+    flex: 0 1 1;
+    outline: 2px black solid;
+}
